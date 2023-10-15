@@ -1,6 +1,23 @@
-body,header,footer {
+Heading Font: [Permanent Marker]
+      <!-- @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Permanent+Marker&display=swap'); -->
+Paragraph Font: [Edu NSW ACT Foundation]
+      <!-- @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap'); -->
     max-width:1600 px
     margin: 0 auto  
+.home-title {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 2em;
+}
+.book,.join {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px
+}
+.msg p {
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px
 }
 nav,#hero-msg h1, #hero-msg h4, .button-box, main section {
     text-align: center
@@ -10,12 +27,21 @@ nav,#hero-msg h1, #hero-msg h4, .button-box, main section {
 }
 body{
     background-color:turquoise
+    font-family: Permanent Marker, sans-serif
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color:azure
 }
 .book, .join {
     background-color:aquamarine
+    text-align: center;
+    padding: 15px 30px;
 }
 .book:hover, .join:hover {
     background-color:aliceblue
@@ -28,9 +54,15 @@ header{
 }
 footer {
     background-color:burlywood
+    text-align: center;
+    padding: 25px 50px
+    margin-top: 200px;
 }
-nav a, nav a:hover, .home-title,h4,.book,.join:hover,.msg h2,.msg p, footer, footer a, gooter a:hvoer{
+nav a, nav a:hover, .home-title,h4,.book,.join:hover,.msg h2,.msg p, footer, footer a, footer a:hvoer{
     color:black
+    text-align: center;
+    padding: 35px;
+    margin-top: 10px
 }
 #hero-img{
     width:100%
@@ -40,10 +72,25 @@ nav a, nav a:hover, .home-title,h4,.book,.join:hover,.msg h2,.msg p, footer, foo
 }
 nav a, .book, .join, footer a {
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 footer p {
     font-size: 1.2em;
+    text-align: center;
+    padding: 25px 50px
 }
 footer p, a:hover {
     text-decoration: underline;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black
+}
+main section img {
+    box-sizing: border-box;
 }
