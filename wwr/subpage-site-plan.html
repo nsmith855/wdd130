@@ -1,15 +1,12 @@
-
 <!DOCTYPE html>
 
 <head>
   <meta charset="utf-8" >
   <title>Site Plan</title>
-  <link type="text/css" rel="stylesheet" href="styles/site-plan-rafting.css" >
+  <link rel="stylesheet" href="style/style.css">
 </head>
 <hr >
-<h2>Branding</h2>
-<h3>Website Logo</h3>
-<img src="https://byui-wdd.github.io/wdd130/rafting_images/dryoarlogo.png" alt="Logo image" >
+<img id="logo2" src="https://byui-wdd.github.io/wdd130/rafting_images/dryoarlogo.png" alt="Logo image" >
 <hr />
 <h2>Style Guide</h2>
 <nav>
@@ -18,62 +15,47 @@
     <a href="#">Contact Us</a>
   </nav>
 
-<body>
-  <header>
-    <h1>River Routes</h1>
-    <h2>Nate Smith</h2>
-    <h2>WDD 130-[C8]</h2>
-  </header>
-  <main>
-    <h3>Title</h3>
-    <p>We offer three routes in three different rivers, each with a varying degree of difficulty.</p>
-
-
-    <h4>
-      Heading Font: [Permanent Marker]
-      <!-- @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Permanent+Marker&display=swap'); -->
-    </h4>
-    <h4>
-      Paragraph Font: [Edu NSW ACT Foundation]
-      <!-- @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap'); -->
-    </h4>
-    <h3>Main Fork of the Salmon River, Idaho</h3>
-    <img src="Images/river1.jpg"
-
-    <p>
-        Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. The Salmon was given the nickname long ago as the River of No Return by the people living near it because of the number of folks that came to visit and fell so in love with the rugged beauty of the river that they never left.
-
-        Herds of elk and deer graze on the hillsides around the river and bear and bighorn sheep are also commonly sighted. The river corridor is also lined with awe inspiring ponderosa pine which tower over the sandy beaches in the campsites and provide shelter from sun or rain when needed.
-        
-        Let's not forget the rapids! They range from class I-IV. The Salmon is one of the longest undammed rivers in the United States. As a free flowing river the water is higher, faster, and colder in the early summer and lower, slower, and warmer in the late summer. There are good rapids all summer...but families with children who like to swim tend to appreciate the late summer's slower, warmer water more.
-    </p>
-    <h3>Desolation and Gray Canyon, Utah</h3>
-    <img src="Images/river2.jpg"
-    
-    <p>
-        Winding through canyons in central Utah, in some of the most desolate land anywhere, the Green river flows towards the mighty Colorado river and the sea. High grey stone cliffs, beautiful desert scenery, and great rapids have made this run famous. This 84-mile trip runs from from Sand Wash to Swaseys Rapid (just outside Green River Utah) and boasts outstanding scenery, interesting geologic formations, evidence of prehistoric and historic human activity, and great whitewater opportunities.
-
-        Desolation is rated a Class II/III and is usually done in 6 days
-        
-        Desolation Canyon has been recognized as a National Landmark.  This designation is based on the uniqueness and rich history that the canyon tells.
-    </p>
-    <h3>Grand Canyon, Arizona</h3>
-  <img src="Images/river3.jpg"
+  <body>
+    <header>
+      <h1>River Routes</h1>
+      <h2>Nate Smith</h2>
+      <h2>WDD 130-[C8]</h2>
+    </header>
   
-  <p>This is the grand daddy of all canyons and the grand daddy of all river trips. You will never forget your visit to the Grand Canyon.
-
-    Grand Canyon river rafting combines world-class whitewater with breathtaking scenery to make one truly unforgettable river experience. The canyon is filled not only with exhilarating whitewater rapids, but with side canyons and ancient indian ruins accessible only by river.
-    
-    CLASS I - X: The Grand Canyon uses a unique river rating scale. The rapids in the Canyon are technically rated I - X ( 1 - 10) to accommodate such a wide variety of rapids and river variances. However, most people are familiar with the regular I - V river rating scale, so we often refer to both.</p>
-
-
-    <h2>Wireframe</h2>
-
-    <img src="Images/siteplan.jpg"
-
-    <h3>[River Routes]</h3>
-
-  </main>
-</body>
-
-</html>
+    <main id="grid-container">
+      <section class="grid-item">
+        <h3>Three Paths of Adventure</h3>
+        <p>We offer three routes in three different rivers, each with a varying degree of difficulty.</p>
+      </section>
+  
+      <section class="grid-item">
+        <h3>Main Fork of the Salmon River, Idaho</h3>
+        <img id="rivers1" src="Images/river1.jpg" alt="Salmon River Image">
+        <p> Nestled deep in the Frank Church Wilderness of No Return winds the Salmon river. The Salmon was given the nickname long ago as the River of No Return by the people living near it because of the number of folks that came to visit and fell so in love with the rugged beauty of the river that they never left. Herds of elk and deer graze on the hillsides around the river and bear and bighorn sheep are also commonly sighted. The river corridor is also lined with awe inspiring ponderosa pine which tower over the sandy beaches in the campsites and provide shelter from sun or rain when needed. Let's not forget the rapids! They range from class I-IV. The Salmon is one of the longest undammed rivers in the United States. As a free flowing river the water is higher, faster, and colder in the early summer and lower, slower, and warmer in the late summer. There are good rapids all summer...but families with children who like to swim tend to appreciate the late summer's slower, warmer water more.</p>
+      </section>
+  
+      <section class="grid-item">
+        <h3>Desolation and Gray Canyon, Utah</h3>
+        <img id="rivers2" src="Images/river2.jpg" alt="Desolation Canyon Image">
+        <p>Winding through canyons in central Utah, in some of the most desolate land anywhere, the Green river flows towards the mighty Colorado river and the sea. High grey stone cliffs, beautiful desert scenery, and great rapids have made this run famous. This 84-mile trip runs from from Sand Wash to Swaseys Rapid (just outside Green River Utah) and boasts outstanding scenery, interesting geologic formations, evidence of prehistoric and historic human activity, and great whitewater opportunities. Desolation is rated a Class II/III and is usually done in 6 days Desolation Canyon has been recognized as a National Landmark. This designation is based on the uniqueness and rich history that the canyon tells.</p>
+      </section>
+  
+      <section class="grid-item">
+        <h3>Grand Canyon, Arizona</h3>
+        <img id="rivers3" src="Images/river3.jpg" alt="Grand Canyon Image">
+        <p>This is the grand daddy of all canyons and the grand daddy of all river trips. You will never forget your visit to the Grand Canyon. Grand Canyon river rafting combines world-class whitewater with breathtaking scenery to make one truly unforgettable river experience. The canyon is filled not only with exhilarating whitewater rapids, but with side canyons and ancient indian ruins accessible only by river. CLASS I - X: The Grand Canyon uses a unique river rating scale. The rapids in the Canyon are technically rated I - X ( 1 - 10) to accommodate such a wide variety of rapids and river variances. However, most people are familiar with the regular I - V river rating scale, so we often refer to both.</p>
+      </section>
+  
+    </main>
+  
+    <footer>
+      <p>Super Epic Rafting; 2023 - Nate Smith</p>
+      <p><a href="site-plan-rafting.html">Site Plan</a></p>
+      <p><a href="contactus.html">Contact Us</a></p>
+      <div class="social">
+        <!-- Social media links -->
+      </div>
+    </footer>
+  </body>
+  
+  </html>
