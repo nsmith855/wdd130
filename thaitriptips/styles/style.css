@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0051ba; 
+    color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#banner {
+    text-align: center;
+}
+
+.banner_image {
+    width: 100%;
+    height: auto;
+}
+
+#intro {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; 
+    border-radius: 8px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.row1,
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+.row1 img,
+.row2 img {
+    width: 100%;
+    height: auto;
+}
+
+.home-grid h1,
+.home-grid h3,
+.home-grid h5,
+.home-grid h7 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #d21034; 
+}
+
+.home-grid h2,
+.home-grid h4,
+.home-grid h6,
+.home-grid h8 {
+    font-size: 1.2em;
+    color: #0051ba; 
+}
+
+.footer {
+    background-color: #0051ba; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    clear: both;
+}
+
+.footer nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
