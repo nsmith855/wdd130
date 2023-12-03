@@ -201,3 +201,61 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
+
+#area1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px; /* Adjust the gap as needed */
+}
+
+#area1_item,
+#area1_item2,
+#area1_item3 {
+    max-width: 100%;
+    height: auto;
+}
+
+#area2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Remove the space here */
+    grid-gap: 16px;
+}
+
+#area2_item1,
+#area2_item2,
+#area2_item3 {
+    max-width: 100%;
+    height: auto;
+}
+
+#area3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Remove the space here */
+    grid-gap: 16px;
+}
+
+#area3_item1,
+#area3_item2,
+#area3_item3 {
+    max-width: 100%;
+    height: auto;
+}
+#area1 h1,
+#area2 h2,
+#area3 h3 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+#area1 p,
+#area2 p,
+#area3 p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 0 20px;
+}
